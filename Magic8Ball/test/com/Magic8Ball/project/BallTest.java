@@ -23,7 +23,7 @@ public class BallTest {
 		Ball ball = new Ball();
 		int result = ball.getAnswer(0);
 		assertEquals(result, 0);
-		//assertNotEquals(result, 1);
+		assertNotEquals(result, 1);
 	
 	}
 
